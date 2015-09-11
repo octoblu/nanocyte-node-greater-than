@@ -1,2 +1,2 @@
 # nanocyte-node-greater-than
-greater than node
+Greater Than operator node for Nanocyte

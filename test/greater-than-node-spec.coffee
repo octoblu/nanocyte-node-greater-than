@@ -13,8 +13,8 @@ describe 'GreaterThanNode', ->
     describe 'when called with left greater than right', ->
       beforeEach ->
         @config =
-          left: 10
-          right: 5
+          left: 5
+          right: 1
         @message = 'sup brah'
 
         @callback = sinon.spy()
@@ -24,10 +24,10 @@ describe 'GreaterThanNode', ->
       it 'should call the callback with the message', ->
         expect(@callback).to.have.been.calledWith null, @message
 
-    describe 'when called with left not greater than right', ->
+    describe 'when called with left less than right', ->
       beforeEach ->
         @config =
-          left: 10
+          left: 0
           right: 6
         @message = 'dude bro'
 

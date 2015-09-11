@@ -1,6 +1,6 @@
 {
   "name": "nanocyte-node-greater-than",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "greater than node for nanocyte",
   "main": "index.js",
   "directories": {

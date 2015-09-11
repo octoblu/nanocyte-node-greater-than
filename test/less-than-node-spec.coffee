@@ -1,7 +1,7 @@
-GreaterThanNode = require '../src/greater-than-node'
-describe 'GreaterThanNode', ->
+LessThanNode = require '../src/less-than-node'
+describe 'LessThanNode', ->
   beforeEach ->
-    @sut = new GreaterThanNode
+    @sut = new LessThanNode
 
   it 'should exist', ->
     expect(@sut).to.exist
@@ -10,21 +10,21 @@ describe 'GreaterThanNode', ->
     expect(@sut.onMessage).to.exist
 
   describe '->onMessage', ->
-    describe 'when called with left greater than right', ->
+    describe 'when called with left less than right', ->
       beforeEach ->
         @config =
-          left: 10
+          left: 1
           right: 5
         @message = 'sup brah'
 
         @callback = sinon.spy()
-        @sut = new GreaterThanNode @config
+        @sut = new LessThanNode @config
         @sut.onMessage @message, @callback
 
       it 'should call the callback with the message', ->
         expect(@callback).to.have.been.calledWith null, @message
 
-    describe 'when called with left not greater than right', ->
+    describe 'when called with left not less than right', ->
       beforeEach ->
         @config =
           left: 10
@@ -32,7 +32,7 @@ describe 'GreaterThanNode', ->
         @message = 'dude bro'
 
         @callback = sinon.spy()
-        @sut = new GreaterThanNode @config
+        @sut = new LessThanNode @config
         @sut.onMessage @message, @callback
 
       it 'should call the callback with null', ->

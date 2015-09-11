@@ -1,2 +1,2 @@
-# nanocyte-node-greater-than
-greater than node
+# nanocyte-node-less-than
+Less Than operator node for Nanocyte

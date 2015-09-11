@@ -1,7 +1,7 @@
 {
-  "name": "nanocyte-node-greater-than",
+  "name": "nanocyte-node-less-than",
   "version": "1.0.0",
-  "description": "greater than node for nanocyte",
+  "description": "less than node for nanocyte",
   "main": "index.js",
   "directories": {
     "example": "examples"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/octoblu/nanocyte-node-greater-than.git"
+    "url": "git+https://github.com/octoblu/nanocyte-node-less-than.git"
   },
   "keywords": [
     "nanocyte",
@@ -23,9 +23,9 @@
   "author": "sqrt@octoblu.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/octoblu/nanocyte-node-greater-than/issues"
+    "url": "https://github.com/octoblu/nanocyte-node-less-than/issues"
   },
-  "homepage": "https://github.com/octoblu/nanocyte-node-greater-than#readme",
+  "homepage": "https://github.com/octoblu/nanocyte-node-less-than#readme",
   "devDependencies": {
     "chai": "^3.2.0",
     "coffee-script": "^1.10.0",

@@ -1,0 +1,36 @@
+{
+  "name": "nanocyte-node-greater-than",
+  "version": "1.0.0",
+  "description": "greater than node for nanocyte",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/nanocyte-node-greater-than.git"
+  },
+  "keywords": [
+    "nanocyte",
+    "meshblu",
+    "octoblu",
+    "cats",
+    "iot"
+  ],
+  "author": "sqrt@octoblu.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/nanocyte-node-greater-than/issues"
+  },
+  "homepage": "https://github.com/octoblu/nanocyte-node-greater-than#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coffee-script": "^1.10.0",
+    "mocha": "^2.3.2",
+    "sinon": "^1.16.1",
+    "sinon-chai": "^2.8.0"
+  }
+}
